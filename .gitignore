@@ -1,0 +1,8 @@
+node_modules
+.svelte-kit
+.alchemy
+.wrangler
+.dev.vars
+.env
+.env.*
+!.env.example

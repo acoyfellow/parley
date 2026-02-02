@@ -1,0 +1,43 @@
+{
+  "name": "parley",
+  "version": "0.0.1",
+  "description": "Two AI models debate until they agree on a plan. Dual-model collaborative planning with real-time streaming.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "deploy": "npm run build && alchemy deploy"
+  },
+  "keywords": [
+    "ai",
+    "planning",
+    "llm",
+    "openrouter",
+    "cloudflare",
+    "streaming",
+    "collaborative"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acoyfellow/parley.git"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260101.0",
+    "@sveltejs/adapter-cloudflare": "^7.2.4",
+    "@sveltejs/kit": "^2.49.2",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/node": "^22.15.29",
+    "svelte": "^5.46.1",
+    "svelte-check": "^4.2.1",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0"
+  },
+  "dependencies": {
+    "openai": "^4.103.0"
+  }
+}
